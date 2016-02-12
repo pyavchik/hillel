@@ -3,16 +3,19 @@
  */
 public class Appartmans {
     public static void main(String[] args) {
-        int days = 1;
-        int payForDay = 40;
-        int payForAll = 40 * 30;
 
-        if(days > 7){
-            payForAll = payForDay*30 - 50;
-        } else if ((days > 3)&(days <= 7)){
-            payForAll = payForDay*30 - 20;
+        int days = 2;
+
+        if (days < 3) {
+            System.out.println("40$ per day");
         }
 
-        //System.out.println(payForAll);
+        if (days >= 3 && days <= 7) {
+            System.out.println("40$ per day, and - 20 $ at all ");
+        }
+
+        if (days > 7) {
+            System.out.println("40$ per day, and - 40 $ at all ");
+        }
     }
 }
