@@ -31,5 +31,14 @@ public class MyFirstClass {
 
         System.out.println(millisecondsFromBC);
 
+        //DGovorov Examples
+        long prettyBigNumber = 1_000_000_000;
+        System.out.println(prettyBigNumber + " Compiler removes all '_' in numbers");
+
+        int prettyBigNumberBinary = 0b1111_0100_0010_0100_0000; // ПРЕФИКСЫ для чисел
+
+        //числа с плавающей точкой не используются в финансовых расчетах
+        System.out.println(2.0 - 1.1 + " That's how we lose your money, sir"); // != 0.9
+
     }
 }
