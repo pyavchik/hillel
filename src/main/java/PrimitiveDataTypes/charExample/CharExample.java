@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.charExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class CharExample {
 /*    char data type is a single 16-bit Unicode character.

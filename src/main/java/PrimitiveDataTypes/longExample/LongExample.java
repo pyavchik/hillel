@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.longExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class LongExample {
 /*    Long data type is a 64-bit signed two's complement integer.

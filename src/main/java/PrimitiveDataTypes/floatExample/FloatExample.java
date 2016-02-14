@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.floatExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class FloatExample {
 

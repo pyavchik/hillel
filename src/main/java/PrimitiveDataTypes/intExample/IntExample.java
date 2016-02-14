@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.intExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class IntExample {
 /*    Int data type is a 32-bit signed two's complement integer.

@@ -5,20 +5,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by test on 14.02.16.
- */
-
-/*
-Room costs 40 dollars per day
-for more than 7 days we have a discount of 50 dollars
-for more than 3 days we have a discount of 20 dollars
- */
-
-
-/*
-Room costs 40 dollars per day
-for more than 7 days we have a discount of 50 dollars
-for more than 3 days we have a discount of 20 dollars
+ * Created by pyavchik on 14.02.16.
+ * Homework 6
+ *
+ * Room costs 40 dollars per day
+ * for more than 7 days we have a discount of 50 dollars
+ * for more than 3 days we have a discount of 20 dollars
+ *
  */
 
 public class RoomRental {

@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.booleanExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class BooleanExample {
 /*    boolean data type represents one bit of information.

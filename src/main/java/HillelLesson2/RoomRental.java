@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Created by test on 14.02.16.
+ * Created by pyavchik on 14.02.16.
  */
 
 public class RoomRental {

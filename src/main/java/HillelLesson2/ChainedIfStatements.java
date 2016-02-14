@@ -1,7 +1,7 @@
 package HillelLesson2;
 
 /**
- * Created by test on 14.02.16.
+ * Created by pyavchik on 14.02.16.
  */
 public class ChainedIfStatements {
 

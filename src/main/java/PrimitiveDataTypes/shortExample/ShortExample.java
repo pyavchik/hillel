@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.shortExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class ShortExample {
 /*    Short data type is a 16-bit signed two's complement integer.

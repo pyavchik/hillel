@@ -1,7 +1,7 @@
 package PrimitiveDataTypes.doubleExample;
 
 /**
- * Created by oleksandrpiavchik on 12.02.16.
+ * Created by pyavchik on 12.02.16.
  */
 public class DoubleExample {
 /*    double data type is a double-precision 64-bit IEEE 754 floating point.

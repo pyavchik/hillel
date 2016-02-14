@@ -1,7 +1,7 @@
 package HillelLesson1;
 
 /**
- * Created by oleksandrpiavchik on 10.02.16.
+ * Created by pyavchik on 10.02.16.
  */
 public class MyFirstClass {
     public static void main(String args[]) {
