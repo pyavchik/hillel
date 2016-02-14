@@ -3,7 +3,7 @@ package PrimitiveDataTypes.longExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class LongExample {
+public class LongExample1 {
 /*    Long data type is a 64-bit signed two's complement integer.
 
       Minimum value is -9,223,372,036,854,775,808.(-2^63)

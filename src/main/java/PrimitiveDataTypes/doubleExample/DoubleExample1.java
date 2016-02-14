@@ -3,7 +3,7 @@ package PrimitiveDataTypes.doubleExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class DoubleExample {
+public class DoubleExample1 {
 /*    double data type is a double-precision 64-bit IEEE 754 floating point.
 
       This data type is generally used as the default data type for decimal values, generally the default choice.

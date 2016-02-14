@@ -3,7 +3,7 @@ package PrimitiveDataTypes.booleanExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class BooleanExample {
+public class BooleanExample1 {
 /*    boolean data type represents one bit of information.
 
       There are only two possible values: true and false.

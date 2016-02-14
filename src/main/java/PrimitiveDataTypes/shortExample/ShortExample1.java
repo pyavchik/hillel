@@ -3,7 +3,7 @@ package PrimitiveDataTypes.shortExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class ShortExample {
+public class ShortExample1 {
 /*    Short data type is a 16-bit signed two's complement integer.
 
     Minimum value is -32,768 (-2^15)
