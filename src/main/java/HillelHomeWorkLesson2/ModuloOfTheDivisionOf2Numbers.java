@@ -8,10 +8,12 @@ import java.io.InputStreamReader;
  * Created by test on 14.02.16.
  *  Homework 3
  * Даны 2 числа, определить делится ли первое число на второе без остатка
-
+ *
  */
-public class moduloOfTheDivisionTwoNumbers {
+public class ModuloOfTheDivisionOf2Numbers {
+
     public static void main(String[] args) {
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         try {
@@ -24,7 +26,7 @@ public class moduloOfTheDivisionTwoNumbers {
 
             if(intDigit2 == 0){
 
-                System.out.println("second number can not be 0");
+                System.out.println("Second number can not be 0");
 
             } else if (intDigit1 % intDigit2 == 0){
 
