@@ -3,7 +3,7 @@ package PrimitiveDataTypes.intExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class IntExample1 {
+public class IntExample {
 /*    Int data type is a 32-bit signed two's complement integer.
 
       Minimum value is - 2,147,483,648.(-2^31)

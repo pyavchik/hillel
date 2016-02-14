@@ -3,7 +3,7 @@ package PrimitiveDataTypes.floatExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class FloatExample1 {
+public class FloatExample {
 
 /*  Float data type is a single-precision 32-bit IEEE 754 floating point.
 

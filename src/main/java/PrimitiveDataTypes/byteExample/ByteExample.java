@@ -3,7 +3,7 @@ package PrimitiveDataTypes.byteExample;
 /**
  * Created by oleksandrpiavchik on 12.02.16.
  */
-public class ByteExample1 {
+public class ByteExample {
 
 /*  Byte data type is an 8-bit signed two's complement integer.
 
