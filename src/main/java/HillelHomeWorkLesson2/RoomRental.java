@@ -13,19 +13,52 @@ Room costs 40 dollars per day
 for more than 7 days we have a discount of 50 dollars
 for more than 3 days we have a discount of 20 dollars
  */
+
+
+/*
+Room costs 40 dollars per day
+for more than 7 days we have a discount of 50 dollars
+for more than 3 days we have a discount of 20 dollars
+ */
+
 public class RoomRental {
-
     public static void main(String[] args) {
-        int days = 12;
+        System.out.println("Please enter number of days you need a flat: ");
 
-        int total = days * 40;
+        int intDaysOfRent;
 
-        //for 3 days we have -20
-        if (days > 3)
-            total -= 20; //total = total - 20
+        short rentCost = 40;
+        short discountMoreThenThreeDays = 20;
+        short discountMoreThenSevenDays = 50;
 
-        //for 7 days we have -50 -(20 + 30)
-        if (days > 7)
-            total -= 30; //total = total - 30
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            intDaysOfRent = Integer.parseInt(reader.readLine());
+
+            if (intDaysOfRent <= 0){
+
+                System.out.println("Maybe wrong number... Please try again!");
+
+            } else if (intDaysOfRent <= 3) {
+
+                System.out.println("Room costs - 40$ per day");
+                System.out.println("Please pay: " + (intDaysOfRent * rentCost) + " $");
+
+            } else if (intDaysOfRent >= 3 && intDaysOfRent <= 7) {
+
+                System.out.println("Room costs 40$ per day, and - 20 $ discount ");
+                System.out.println("Please pay: " + (((intDaysOfRent * rentCost) - discountMoreThenThreeDays)) + " $");
+
+            } else {
+
+                System.out.println("Room costs 40$ per day, and - 50 $ discount ");
+                System.out.println("Please pay: " + (((intDaysOfRent * rentCost) - discountMoreThenSevenDays)) + " $");
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 }
