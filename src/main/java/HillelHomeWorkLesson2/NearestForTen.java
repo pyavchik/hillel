@@ -23,11 +23,14 @@ public class NearestForTen {
             System.out.println("Please enter second number: ");
             int intDigit2 = Integer.parseInt(reader.readLine());
 
-            if ((Math.abs(10 - intDigit1)) == (Math.abs(10 - intDigit2))){
+            int absIntDigit1 = Math.abs(10 - intDigit1);
+            int absIntDigit2 = Math.abs(10 - intDigit2);
+
+            if (absIntDigit1 == absIntDigit2){
 
                 System.out.println(intDigit1 + " such close for 10, as " + intDigit2);
 
-            } else if ((Math.abs(10 - intDigit1)) < (Math.abs(10 - intDigit2))){
+            } else if (absIntDigit1 < absIntDigit2){
 
                 System.out.println(intDigit1 + " closer for 10, then " + intDigit2);
 
