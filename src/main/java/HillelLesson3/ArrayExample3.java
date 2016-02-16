@@ -17,8 +17,6 @@ public class ArrayExample3 {
             if (element < min){
                 min = element;
         }
-
-
         }
         System.out.println(min + " ");
     }
