@@ -1,24 +1,27 @@
 package HillelLesson3;
 
 /**
- * Created by User on 16.02.2016.
+ * Created by oleksandrpiavchik on 19.02.16.
  */
 public class SwitchExample {
 
     public static void main(String[] args) {
+
         int a = 3;
         int b = 5;
 
-        int result;
+        String operation = "multiply";
 
-        String operation = "add";
-
-        switch(operation) {
+        int result = 0;
+        switch (operation) {
             case "add":
                 result = a + b;
                 break;
-            case "substract":
+            case "subtract":
                 result = a - b;
+                break;
+            case "multiply":
+                result = a * b;
                 break;
             case "divide":
                 result = a / b;
@@ -27,8 +30,6 @@ public class SwitchExample {
                 System.out.println("Unknown operation");
         }
 
-        System.out.println(a + b);
-
+        System.out.println("The result is " + result);
     }
-
 }
