@@ -2,6 +2,8 @@ package HillelHomeWorkLesson3;
 
 /**
  * Created by oleksandrpiavchik on 17.02.16.
+ * 3. Создайте программу, выводящую на экран все неотрицательные элементы последовательности 90 85 80 75 70 65 60 ….
+
  */
 public class PositiveNumbers {
 

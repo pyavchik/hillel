@@ -2,6 +2,7 @@ package HillelHomeWorkLesson3;
 
 /**
  * Created by oleksandrpiavchik on 17.02.16.
+ * 4. Создайте программу, выводящую на экран первые 20 элементов
  */
 public class FirstTwentyElements {
 
