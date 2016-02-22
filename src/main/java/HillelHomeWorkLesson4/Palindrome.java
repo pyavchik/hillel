@@ -21,7 +21,6 @@ public class Palindrome {
 
         split(",");
 
-
     }
 
     private static String trim(String stringWithSpace){
