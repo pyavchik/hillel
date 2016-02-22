@@ -31,9 +31,10 @@ public class ShortFormWord {
         System.out.println("");
 
         if (wordsBeforeConvertationArray[0].length() >=  1){
+            System.out.print("Words after convert: ");
             for (int i = 0; i < wordsBeforeConvertationArray.length; i++) {
 
-                System.out.print("Words after convert: " + getShortFormWord(wordsBeforeConvertationArray[i]));
+                System.out.print(getShortFormWord(wordsBeforeConvertationArray[i]) + " ");
 
             }
 
