@@ -22,19 +22,29 @@ public class ShortFormWord {
     }
 
     private static void split() {
-        String wordBeforeConvertation [] = {"internationalization",
-                                            "localization",
-                                            "cat",
-                                            "elephant",
-                                            "monitor"};
+        Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < wordBeforeConvertation.length; i++) {
+        System.out.print("Please enter words: ");
+        String string = scanner.nextLine();
 
-            System.out.println(getShortFormWord(wordBeforeConvertation[i]));
+        String wordsBeforeConvertationArray[] = string.split(" ");
+        System.out.println("");
+
+        if (wordsBeforeConvertationArray[0].length() >=  1){
+            for (int i = 0; i < wordsBeforeConvertationArray.length; i++) {
+
+                System.out.print("Words after convert: " + getShortFormWord(wordsBeforeConvertationArray[i]));
+
+            }
+
+        }else {
+
+            System.out.println("No words to convert =)");
+            System.out.println("");
 
         }
-    }
 
+    }
 
     private static String getShortFormWord(String word){
         String shortWord = "";
