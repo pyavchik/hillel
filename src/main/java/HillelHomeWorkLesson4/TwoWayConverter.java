@@ -29,16 +29,16 @@ public class TwoWayConverter {
 
         int option = scanner.nextInt();
 
-
         if (option == 1){
-            System.out.print("Enter binary number to convert: ");
-            int binaryNumber = scanner.nextInt();
-            from2to10(binaryNumber);
+            int result = from2To10();
+            System.out.println(" is " + result + " in denary");
 
         } else if (option == 2){
             System.out.print("Enter denary number to convert: ");
             int denaryNumber = scanner.nextInt();
-            from10to2(denaryNumber);
+
+            System.out.println(from10to2(denaryNumber));
+
 
         } else {
 
@@ -48,25 +48,46 @@ public class TwoWayConverter {
 
     }
 
-    public static int from2to10(int binaryDigit) {
-
-        int denaryDigit = 0;
-
-        //convert code
-
-
-        return denaryDigit;
+    private static int from2To10() {
+        int binary[] = getArrayFromConsole();
+        int result=0;
+        for (int i=0;i<binary.length;i++){
+            result = result + (int) Math.pow(2,binary.length-1-i)*binary[i];
+        }
+        System.out.print("binary ");
+        for (int i = 0; i < binary.length; i++) {
+            System.out.print(binary[i] + " ");
+        }
+        return result;
     }
 
-    public static int from10to2(int digit) {
+    public static int[] getArrayFromConsole() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("How meny elements in binary number: ");
+        int size = scanner.nextInt();
+
+        System.out.print("Fill up binary number: ");
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++) {
+            System.out.print("Enter the " + (i+1) + " number of binary number: ");
+            array[i] = scanner.nextInt();
+        }
+
+        return array;
+    }
+
+    public static String from10to2(int denaryDigit) {
 
         int binaryDigit = 0;
 
-        //convert code
+        String temp = "";
+        while(denaryDigit !=0){
+            binaryDigit = denaryDigit%2;
+            temp = binaryDigit + temp;
+            denaryDigit = denaryDigit/2;
+        }
 
-        return binaryDigit;
+        return temp;
     }
-
-
-
 }
