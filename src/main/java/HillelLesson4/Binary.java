@@ -1,4 +1,4 @@
-package HillelHomeWorkLesson4;
+package HillelLesson4;
 
 /**
  * Created by oleksandrpiavchik on 23.02.16.
