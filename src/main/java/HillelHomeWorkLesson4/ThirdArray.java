@@ -3,8 +3,6 @@ package HillelHomeWorkLesson4;
 
 import org.apache.commons.lang.ArrayUtils;
 
-import java.util.Arrays;
-
 /**
  * Created by test on 22.02.16.
  * 5. Есть 2 массива упорядоченных по возрастанию. Получите 3й массив, который объединит все эти элементы, но также в возрастающем порядке.
@@ -23,7 +21,17 @@ public class ThirdArray {
 
         int[] c = ArrayUtils.addAll(a, b);
 
-        Arrays.sort(c);
+        for (int i = 0; i < c.length; i++) {
+            int min_index = i;
+            for (int j = i + 1; j < c.length; j++) {
+                if (c[j] < c[min_index]) {
+                    min_index = j;
+                }
+            }
+            int buf = c[i];
+            c[i] = c[min_index];
+            c[min_index] = buf;
+        }
 
         for (int i = 0; i < c.length; i++) {
             System.out.print(c[i] + " ");
