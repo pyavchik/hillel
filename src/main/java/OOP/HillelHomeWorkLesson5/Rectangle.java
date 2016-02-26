@@ -5,7 +5,10 @@ package OOP.HillelHomeWorkLesson5;
  */
 public class Rectangle {
 
-    double sideA, sideB, square, perimeter;
+    double sideA;
+    double sideB;
+    double square;
+    double perimeter;
 
 
     public void init() {
