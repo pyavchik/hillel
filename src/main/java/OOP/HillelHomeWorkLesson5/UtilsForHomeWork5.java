@@ -17,10 +17,16 @@ public class UtilsForHomeWork5 {
     static void setUpSquareRectangle(Scanner scanner, Rectangle rectangleForTask) {
         System.out.print("Please enter square of rectangle: ");
         rectangleForTask.setSquare(scanner.nextDouble());
+        if (rectangleForTask.square <= 0) {
+            System.out.println("Error! rectangle square must be more then 0");
+        }
     }
 
     static void setUpPerimetreRectangle(Scanner scanner, Rectangle rectangleForTask) {
         System.out.print("Please enter perimeter of rectangle: ");
         rectangleForTask.setPerimeter(scanner.nextDouble());
+        if (rectangleForTask.perimeter <= 0) {
+            System.out.println("Error! rectangle square must be more then 0");
+        }
     }
 }
