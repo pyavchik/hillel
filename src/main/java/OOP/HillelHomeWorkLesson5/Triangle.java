@@ -7,9 +7,4 @@ public class Triangle {
     double a;
     double b;
     double c;
-
-    public static double square(double a, double b) {
-
-        return a * b / 2;
-    }
 }
