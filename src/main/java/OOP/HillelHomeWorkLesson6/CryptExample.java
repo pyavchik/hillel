@@ -1,4 +1,4 @@
-package OOP.HillelHomeWork6;
+package OOP.HillelHomeWorkLesson6;
 
 /**
  * Created by test on 29.02.16.
