@@ -17,15 +17,11 @@ public class AdvancedCrypt {
         char[] cryptedMessageArray = new char[messageArray.length];
 
         for (int i = 0; i < messageArray.length; i++) {
-            int count;
-            count = key.length;
-            if (i < count) {
-                cryptedMessageArray[i] = (char) (messageArray[i] ^ key[i]);
-            } else count = 0;
-
-
-
-
+                if(i < key.length) {
+                    cryptedMessageArray[i] = (char) (messageArray[i] ^ key[i]);
+                }else {
+                    cryptedMessageArray[i] = (char) (messageArray[i] ^ (key[i - key.length]));
+                }
 
         }
 
@@ -35,4 +31,3 @@ public class AdvancedCrypt {
     }
 
 }
-

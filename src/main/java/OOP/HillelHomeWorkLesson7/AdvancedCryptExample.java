@@ -7,10 +7,12 @@ public class AdvancedCryptExample {
 
 
     public static void main(String[] args) {
-        AdvancedCrypt advancedCrypt = new AdvancedCrypt(new char[]{'1', '2', '3'});
+        AdvancedCrypt advancedCrypt = new AdvancedCrypt(new char[]{'$', '%', '!'});
 
-        System.out.println(advancedCrypt.crypt("Stroka"));
-        System.out.println(advancedCrypt.crypt("ba`EFGC@A^]\\ZYXPSR`GA\\XR"));
+        String stroka = "Stroka";
+
+        System.out.println("Crypted " + stroka + " is " + advancedCrypt.crypt(stroka));
+        System.out.println("Decripted " + advancedCrypt.crypt(stroka) + " is " + advancedCrypt.crypt("wQSKN@"));
 
     }
 }
